@@ -37,6 +37,7 @@ h1, h2{
   header{
     height: 100px;
     background-color: #4ACF90;
+    color: #373737;
   }
   .logo{
     width: 30%;
@@ -50,7 +51,8 @@ h1, h2{
   .menu{
     width: 30%;
     float: left;
-    margin-top: 25px;
+    margin-top: 2%;
+    margin-left: 11%;
   }
 
   .menu li{
@@ -63,15 +65,16 @@ h1, h2{
   .icons{
     width: 30%auto;
     float: right;
-    margin-top: 1.7%;
+    margin-top: 2%;
     font-size: 30px;
+    margin-right: 7%;
   }
   .sm-icons{
     padding: 7px;
   }
   /*=====Baner Styles=====*/
   #banner{
-    height: 399px;
+    height: 299px;
     background:url("../img/cars2.jpg") center;
     /*background-attachment: fixed;*/
     background-repeat: no-repeat;
@@ -91,6 +94,7 @@ h1, h2{
      background-color: #FFE75F;
      height: 475px;
      margin: none;
+     color: #373737;
 
    }
    #skills .box{
@@ -115,7 +119,7 @@ h1, h2{
      height: 50px;
      width: 50px;
      margin: 0 auto;
-     border: 2px solid #480202;
+     border: 2px solid #373737;
      border-radius: 100%;
      background-color: #fff;
    }
@@ -123,7 +127,7 @@ h1, h2{
 
    .skills-icon i{
      font-size: 2em;
-     color: #480202;
+     color: #373737;
      margin: 9px 11px;
 
    }
@@ -147,13 +151,14 @@ h1, h2{
      height: 500px;
    }
    #text{
-     height: 290px;
-     width: 1000px;
+     height: auto;
+     width: 740px;
      float: right;
      border: dashed 1px;
-     margin-top: -5%;
+     margin-top: -10%;
      margin-right: 2%;
      padding: 1%;
+     color: #373737;
 
 
    }
@@ -166,10 +171,10 @@ h1, h2{
       width: 500px;
    }
    #lion{
-     height: 180%;
-     width: 108%;
+     height: 118%;
+     width: 80%;
      border-radius: 100%;
-     margin-top: 17%;
+     margin-top: 23%;
      margin-left: 10%;
    }
 
@@ -197,3 +202,4 @@ h1, h2{
    .icons2 a i{
      color: #373737;
    }
+   /*testing gh pages*/
