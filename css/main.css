@@ -86,6 +86,19 @@ h1, h2{
      padding-top: 9%;
      font-size:3em;
      color: #333;
+     text-shadow: 0 1px 0 #ccc,
+              0 2px 0 #c9c9c9,
+              0 3px 0 #bbb,
+              0 4px 0 #b9b9b9,
+              0 5px 0 #aaa,
+              0 6px 1px rgba(0,0,0,.1),
+              0 0 5px rgba(0,0,0,.1),
+              0 1px 3px rgba(0,0,0,.3),
+              0 3px 5px rgba(0,0,0,.2),
+              0 5px 10px rgba(0,0,0,.25),
+              0 10px 10px rgba(0,0,0,.2),
+              0 20px 20px rgba(0,0,0,.15);
+
    }
 
    /*=====Skills Styles=====*/
@@ -203,3 +216,105 @@ h1, h2{
      color: #373737;
    }
    /*testing gh pages*/
+   /*=====This is the about page=====*/
+   .about{
+     background-color: #FF9747;
+     height: 400px;
+     padding: 2%;
+   }
+   #title{
+     font-size: 3em;
+     text-align: center;
+     text-shadow: 0 1px 0 #ccc,
+              0 2px 0 #c9c9c9,
+              0 3px 0 #bbb,
+              0 4px 0 #b9b9b9,
+              0 5px 0 #aaa,
+              0 6px 1px rgba(0,0,0,.1),
+              0 0 5px rgba(0,0,0,.1),
+              0 1px 3px rgba(0,0,0,.3),
+              0 3px 5px rgba(0,0,0,.2),
+              0 5px 10px rgba(0,0,0,.25),
+              0 10px 10px rgba(0,0,0,.2),
+              0 20px 20px rgba(0,0,0,.15);
+    color: #4ACF90;
+
+   }
+   #pic{
+  margin: 1%;
+   }
+   #pic img{
+     width: 30%;
+     height: 30%;
+     border-radius: 5%;
+     border: 5px solid #4ACF90;
+     float: left;
+   }
+   #abouttext{
+     float: right;
+     width: 65%;
+   }
+   /*====Video Section=====*/
+   #video{
+     width: 100%;
+     height: 500px;
+     background-color: #FFE75F
+   }
+   #div{
+     height: 100%;
+     width: 75%;
+     margin: 0 auto;
+     background-color: #FFE75F;
+   }
+   iframe{
+     margin: 1% 6%;
+   }
+   /*=====Begin contact section=====*/
+   .map{
+     background-image: url("http://b.fastcompany.net/multisite_files/fastcompany/poster/2013/11/3021587-poster-map.jpg") ;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position: center;
+     /*background-size: contain;*/
+     height: 650px;
+   }
+   #maps{
+     padding-left: 300px;
+     padding-top: 100px;
+      opacity: 0.9;
+
+   }
+    .contact{
+      height: 500px;
+      background-color: white;
+       background-image: url("http://alvordschools.org/cms/lib8/CA01900929/Centricity/Shared/contact%20us%20icon.jpg") ;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-position: center;
+       background-size: contain;
+    }
+    #contactlogo{
+
+      height: 80px;
+      margin: none;
+      text-align: center;
+      font-size: 3em;
+    }
+    #info{
+
+      height:400px;
+      width: 415px;
+      float: left;
+      padding-left: 20px;
+      margin-left: 250px;
+
+    }
+    #address{
+
+      height: 200px;
+      width: 200px;
+      float: right;
+      margin-right:333px;
+      font-size: 1.3em;
+
+    }
